@@ -16,10 +16,13 @@ where command line arguments are as follows:
 `sh jython.sh ../evolution.py 2critic_gen0 2critic_gen100 ChordProgression,Tempo 100`
 
 While running the the file, console will first print the initialization of the Jython Music script with “Audio:” specifications. Then subsequent outputs delineating:
-`Writing initial MIDI to: 2critic_gen0
-Writing final MIDI to: 2critic_gen100
-Running critics: ChordProgressionCritic, TempoCritic
-Running for 100 generations`
+`Writing initial MIDI to: 2critic_gen0`
+
+`Writing final MIDI to: 2critic_gen100`
+
+`Running critics: ChordProgressionCritic, TempoCritic`
+
+`Running for 100 generations`
 
 These should reflect the command line arguments entered.
 The two files `2critic_gen0.mid`, `2critic_gen100.mid` are written to the results directory where those files are already in place from running the demo.
